@@ -50,6 +50,9 @@ public class DifferentCollections {
 		
 		System.out.println(states.size());
 		System.out.println(states.contains("Alabama"));
+		if(states.contains("Alabama")) {
+		states.remove("Alabama");
+		}
 		
 		for (String state : states) {
 			System.out.println(state);
