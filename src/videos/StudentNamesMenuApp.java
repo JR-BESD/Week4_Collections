@@ -63,7 +63,7 @@ public class StudentNamesMenuApp {
 	}
 	
 	public static void deleteStudent() {
-		System.out.print("Enter the index of the studnet you wish to delete: ");
+		System.out.print("Enter the index of the student you wish to delete: ");
 		int index = getUserChoice();
 		if (index < students.size()) {
 		students.remove(index);
